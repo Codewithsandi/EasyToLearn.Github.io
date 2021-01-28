@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esay To Learn</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            height: 532px;
+            width: 100%;
+            background: url('img/home-page-background-2.jpg')no-repeat;
+            background-size: 100% 100%;
+            color: white;
+        }
+        
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 30px;
+            position: absolute;
+            top: 0px;
+            margin: 20px;
+        }
+        
+        .left img {
+            height: 105px;
+            width: 150px;
+            filter: invert(100%);
+        }
+        
+        .right {
+            /* border: 2px solid cyan; */
+            width: 30%;
+            right: 20px;
+            position: absolute;
+            top: 0px;
+            margin: 20px;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+        
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px 20px;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        .container {
+            /* border: 2px solid palevioletred; */
+            padding: 90px 100px;
+            margin: 135px 150px;
+            width: 65%;
+        }
+        
+        .container h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .container p {
+            text-align: center;
+        }
+        
+        .container button {
+            display: block;
+            width: 13%;
+            margin: 7px auto;
+            height: 35px;
+            background: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        
+        .container button:hover {
+            background: wheat;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="C.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Easy To Learn</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis expedita amet at cupiditate aspernatur, maxime repudiandae exercitationem eligendi sit placeat delectus perferendis totam atque nisi enim quia deserunt maiores! ipsum dolor
+            sit amet consectetur, adipisicing elit. Ratione, placeat? ipsum, dolor sit amet consectetur adipisicing elit. Cum, quaerat? Eos, distinctio voluptatem!</p>
+        <button class="btn">
+            See All Tutorial
+        </button>
+    </div>
+</body>
+
+</html>
